@@ -6,12 +6,15 @@
 }
 
 window#waybar {
-    background: rgba(26, 27, 38, 0.75);
+    /* background: rgba(26, 27, 38, 0.75); */
+    background: transparent;
     color: #c0caf5;
     font-family: 
         SpaceMono Nerd Font,
         feather;
     transition: background-color .5s;
+    padding: 0;
+    margin: 0;
 }
 
 .modules-left,
@@ -27,7 +30,7 @@ window#waybar {
     padding: 0;
 }
 .modules-center {
-    padding: 0 10px;
+    padding: 0 5px;
 }
 
 #clock,
@@ -75,15 +78,15 @@ window#waybar {
 
 
 #workspaces button {
-  background: transparent;
-  font-family:
-    SpaceMono Nerd Font,
-    feather;
-  font-weight: 900;
-  font-size: 13pt;
-  color: #c0caf5;
-  border:none;
-  border-radius: 15px;
+    background: transparent;
+    font-family:
+        SpaceMono Nerd Font,
+        feather;
+    font-weight: 900;
+    font-size: 13pt;
+    color: #c0caf5;
+    border:none;
+    border-radius: 15px;
 }
 
 #workspaces button.active {
@@ -91,9 +94,9 @@ window#waybar {
 }
 
 #workspaces button:hover {
-  background: #11111b;
-  color: #cdd6f4;
-  box-shadow: none;
+    background: #11111b;
+    color: #cdd6f4;
+    box-shadow: none;
 }
 
 #custom-arch {
